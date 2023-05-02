@@ -245,3 +245,86 @@ footer p {
     font-weight: lighter;
     margin-top: 140px;
 }
+
+@media screen and (min-width: 1112px) {
+    section {
+        padding: 100px 15%;
+    }
+} /*Este media query é para telas de notebook*/
+
+@media screen and (max-width: 900px) {
+    .div-principal {
+        animation: inicializar .7s forwards;
+        height: 100vh;
+        width: 100%;
+        background-image: url(./assets/background.png);
+        background-size: cover;
+        background-position: center;
+        background-color: #191919;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .portfolio {
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .portfolio span {
+        color: #973549;
+    }
+    
+    .meu-nome {
+        position: absolute;
+        top: 37%;
+        left: 7%;
+    }
+    
+    section {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        background-color: #000000;
+    }
+    
+    section img {
+        margin-top: 10%;
+        margin-left: 25%;
+        height: 350px;
+        border: 3px solid #973549;
+    }
+
+    section div h2 {
+        margin-top: 10%;
+        margin-left: 25%;
+        color: #FFFFFF;
+        margin-top: 10%;
+        font-size: 40px;
+    }
+    
+    section div p {
+        width: auto;
+        margin: 40px 50px 50px 50px;
+        color: #973549;
+    }
+    
+    section div button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    section div a {
+        text-decoration: none;
+    }
+    
+    section div button:hover {
+        background-color: #000000;
+        border: 3px solid #973549;
+        transition: 0.3s;
+    }
+}
