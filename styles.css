@@ -93,15 +93,10 @@ section {
 }
 
 section img {
-    height: 500px;
-    border-radius: 50px;
+    height: 300px;
+    border-radius: 100%;
     border: 3px solid #973549;
     margin-right: 50px;
-}
-
-section img:hover {
-    border: 3px solid #FFFFFF;
-    transition: 0.5s;
 }
 
 section div h2 {
@@ -285,10 +280,7 @@ footer p {
     }
     
     section img {
-        margin-top: 10%;
-        margin-left: 25%;
-        height: 300px;
-        border: 3px solid #973549;
+        margin-top: 10% auto;
     }
 
     section div h2 {
@@ -338,5 +330,36 @@ footer p {
         height: 70px;
     }
     
-
+    footer h5 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    
+    footer p {
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-top: 14px;
+    }
+    
+    .social {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .social a {
+        background-color: #973549;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .copyright {
+    font-size: 14px;
+    }
 }
