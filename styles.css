@@ -58,6 +58,11 @@ li:active {
     left: 7%;
 }
 
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     color: #FFFFFF;
     font-size: 75px;
@@ -193,7 +198,7 @@ section div button:hover {
 footer {
     background-color: #000000;
     padding-top: 100px;
-    padding-bottom: 120px;
+    padding-bottom: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
