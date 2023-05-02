@@ -8,6 +8,7 @@
 }
 
 .div-principal {
+    animation: inicializar .7s forwards;
     height: 100vh;
     width: 100%;
     background-image: url(./assets/background.png);
@@ -65,6 +66,18 @@ h1 {
 .meu-nome h3 {
     color: #973549;
     font-size: 40px;
+}
+
+@keyframes inicializar {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 section {
