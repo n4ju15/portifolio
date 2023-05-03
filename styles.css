@@ -275,24 +275,27 @@ footer p {
         margin: 0;
         padding: 0;
         height: 100vh;
-        width: 100%;
-        display: block;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column; /*Parei analisando aqui*/
+        align-items: center;
+        justify-content: center;
     }
     
     section img {
-        margin-top: 10% auto;
+        margin-top: 10%;
     }
 
     section div h2 {
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 25%;
         font-size: 40px;
     }
     
     section div p {
         width: auto;
-        padding-left: 5px ;
-        padding-top: 5px;
+        padding-left: 50px ;
+        padding-right: 50px;
         padding-bottom: 10px;
     }
     
@@ -306,12 +309,16 @@ footer p {
     }
 
     .projetos {
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .projetos .card-projetos {
-        display: block;
-        margin-top: 30px;
+    .card-projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
     }
     
     .projetos h2 {
@@ -336,27 +343,9 @@ footer p {
     }
     
     footer p {
-        color: #FFFFFF;
         font-size: 18px;
         margin-bottom: 30px;
         margin-top: 14px;
-    }
-    
-    .social {
-        display: flex;
-        gap: 20px;
-    }
-    
-    .social a {
-        background-color: #973549;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        width: 50px;
-        cursor: pointer;
-        text-decoration: none;
     }
     
     .copyright {
