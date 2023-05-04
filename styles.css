@@ -110,7 +110,7 @@ section div p {
     color: #973549;
     width: 700px;
     font-size: 24px;
-    text-align: center;
+    text-align: justify;
     margin: 20px 0 60px 0;
 }
 
@@ -300,6 +300,7 @@ footer p {
     
     section div p {
         width: auto;
+        text-align: center;
         padding-left: 50px ;
         padding-right: 50px;
         padding-bottom: 10px;
