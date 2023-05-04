@@ -90,6 +90,8 @@ section {
     align-items: center;
     padding: 200px 25%;
     background-color: #000000;
+    height: 100vh;
+    width: 100vw;
 }
 
 section img {
@@ -277,18 +279,22 @@ footer p {
         height: 100vh;
         max-width: 100%;
         display: flex;
-        flex-direction: column; /*Parei analisando aqui*/
+        flex-direction: column; 
         align-items: center;
         justify-content: center;
     }
     
     section img {
+        height: 250px;
         margin-right: 0px;
     }
 
     section div h2 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
         margin-top: 50px;
-        margin-left: 25%;
         font-size: 40px;
     }
     
